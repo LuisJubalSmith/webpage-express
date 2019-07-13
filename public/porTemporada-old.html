@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Por Temporada</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar">
+        <a class="navbar-brand text-white" href="#">
+            <h1>POR TEMPORADA</h1>
+        </a>
+        <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse active" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link text-white" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="link.html">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="alquiler.html">Alquiler</a>
+                        <a class="dropdown-item" href="venta.html">Ventas</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="porTemporada.html">Por Temporada</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="nosotros.html" tabindex="-1" aria-disabled="true">NOSOTROS</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Fluid jumbotron</h1>
+            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <footer id="s4" class="container-fluid text-center">
+        <h2 class="titulos1">Derechos Reservados</h2>
+        <h3 class="titulos2">Curso Node.js Udemi 2019</h3>
+        <br><br>
+        <div class="espacio">
+            <a href="http://www.facebook.com" target="blank">
+                <i class="fab fa-facebook fa-4x" style="color:#fff"></i>
+            </a>
+        </div>
+        <div class="espacio">
+            <a href="http://www.twitter.com" target="blank">
+                <i class="fab fa-twitter-square fa-4x" style="color:#fff"></i>
+            </a>
+        </div>
+        <div class="espacio">
+            <a href="http://www.youtube.com" target="blank">
+                <i class="fab fa-youtube-square fa-4x" style="color:#fff"></i>
+            </a>
+        </div>
+    </footer>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script src="js/smooth-scroll.min.js"></script>
+    <!-- <script src="js/scrolltop.js"></script>  -->
+    <script>
+        smoothScroll.init({
+            selector: '[data-scroll]',
+            selectorHeader: null,
+            // 2 seg equivale a 2000)
+            speed: 1000,
+            easing: 'easeInOutCubic',
+            offset: 0,
+            callback: function(anchor, toggle) {}
+        });
+    </script>
+
+    <script src="js/wow.js"></script>
+    <script>
+        new WOW().init();
+        // carga del wow js
+    </script>
+</body>
+
+</html>
