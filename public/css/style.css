@@ -6,11 +6,8 @@ button {
     height: 40px;
     width: auto;
     background-color: #941751;
-    /* Green */
     border: none;
     color: white;
-    /* padding: 0px 20px; */
-    /* text-align: center; */
     text-decoration: none;
     border-radius: .5em;
 }
@@ -57,9 +54,7 @@ table td {
 }
 
 .navbar-nav li a {
-    /*color:#fff;*/
     text-decoration: none;
-    /* links sin subrayado*/
     line-height: 20px;
     font-size: 16px;
     padding: 15px 10px 15px 10px;
@@ -96,7 +91,6 @@ table td {
 footer {
     background-color: #333333;
     color: #FFF;
-    /* position: fixed; */
     width: 100%;
     height: auto;
     bottom: 0px;
